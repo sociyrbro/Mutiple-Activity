@@ -2,10 +2,15 @@ package cn.edu.sicnu.cs.stu.guolijie.mutopleactivity.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+val Blue80 = Color(0xFFA8C7FA)
+val BlueGrey80 = Color(0xFFC5D4E6)
+val Teal80 = Color(0xFF8FD6D2)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val Blue40 = Color(0xFF2F5F98)
+val BlueGrey40 = Color(0xFF526579)
+val Teal40 = Color(0xFF1F6F70)
+
+val AppBackground = Color(0xFFF7F9FC)
+val AppSurface = Color(0xFFFFFFFF)
+val AppSurfaceVariant = Color(0xFFE8EEF5)
+val AppOutline = Color(0xFFB9C6D5)

@@ -1,3 +1,50 @@
 <resources>
-    <string name="app_name">Mutople Activity</string>
+    <string name="app_name">郭理杰2024110213</string>
+    <string name="assignment_title">实验三 多 Activity</string>
+    <string name="student_summary">郭理杰 2024110213</string>
+    <string name="main_subtitle">通过显式 Intent、返回结果、隐式相机和 StopWatch 完成多 Activity 实验。</string>
+
+    <string name="main_button_forward">1. 正向传参</string>
+    <string name="main_button_return">2. 输入并返回结果</string>
+    <string name="main_button_camera">3. 隐式 Intent 拍照</string>
+    <string name="main_button_stopwatch">4. StopWatch 计时</string>
+    <string name="main_returned_result_label">页面返回结果</string>
+    <string name="main_returned_result_initial">尚未收到第二个 Activity 的返回结果</string>
+
+    <string name="back_to_main">返回主页</string>
+    <string name="forward_title">正向传参</string>
+    <string name="forward_subtitle">MainActivity 通过 Intent Extra 将参数传给 ForwardActivity。</string>
+    <string name="forward_received_label">接收到的参数</string>
+    <string name="forward_value_source">该内容由 MainActivity 在启动 Activity 时写入 Intent。</string>
+
+    <string name="input_title">输入并返回</string>
+    <string name="input_subtitle">在二级 Activity 中输入内容，确定后返回 MainActivity 并显示。</string>
+    <string name="input_label">要返回的内容</string>
+    <string name="input_placeholder">请输入内容</string>
+    <string name="confirm_return">确定并返回</string>
+
+    <string name="camera_title">隐式相机</string>
+    <string name="camera_subtitle">使用 ACTION_IMAGE_CAPTURE 隐式启动系统相机。</string>
+    <string name="camera_placeholder">尚未拍摄照片</string>
+    <string name="camera_photo_description">刚刚拍摄的照片</string>
+    <string name="camera_take_photo">拍照</string>
+    <string name="camera_retake_photo">重新拍照</string>
+    <string name="camera_permission_denied">相机权限被拒绝，无法拍照。</string>
+    <string name="camera_no_app">未找到可用的系统相机应用。</string>
+    <string name="camera_implicit_hint">拍摄结果通过 ActivityResult 返回，并显示在当前页面。</string>
+
+    <string name="stopwatch_title">StopWatch</string>
+    <string name="stopwatch_subtitle">旋转屏幕后计时状态和已用时间仍会保持。</string>
+    <string name="stopwatch_start">开始</string>
+    <string name="stopwatch_pause">暂停</string>
+    <string name="stopwatch_reset">重置</string>
+    <string name="stopwatch_status_running">计时中</string>
+    <string name="stopwatch_status_paused">已暂停</string>
+    <string name="stopwatch_time_format">%1$02d:%2$02d.%3$02d</string>
+    <string name="stopwatch_rotation_note">旋转屏幕会重建 Activity，rememberSaveable 保存累计时间与起始时刻，因此计时保持连续。</string>
+
+    <string name="forward_activity_label">正向传参</string>
+    <string name="input_activity_label">输入并返回</string>
+    <string name="camera_activity_label">隐式相机</string>
+    <string name="stopwatch_activity_label">StopWatch</string>
 </resources>
